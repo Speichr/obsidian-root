@@ -2,5 +2,4 @@
 tags:
   - categories
 ---
-
 ![[People.base]]

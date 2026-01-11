@@ -1,5 +1,4 @@
 ---
-tags:
-  - categories
+tags: categories
 ---
 ![[Meetings.base]]

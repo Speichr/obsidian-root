@@ -1,6 +1,5 @@
 ---
-tags:
-  - categories
+tags: categories
 ---
 
 ![[Clippings.base]]
