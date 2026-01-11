@@ -1,0 +1,5 @@
+---
+categories:
+  - "[[Genres]]"
+---
+![[Genre.base]]
