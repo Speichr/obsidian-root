@@ -1,12 +1,13 @@
 ---
-categories: 
+categories:
   - "[[Conference sessions]]"
-conference: 
-speaker: 
+conference:
+speaker:
 topics: []
-rating: 
-last: {{date}}
-tags:
+rating:
+last:
+  "{ date }":
+type:
   - conferences
   - sessions
   - events

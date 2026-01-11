@@ -19,21 +19,15 @@ views:
     name: Daily notes
     filters:
       and:
-        - '!file.tags.contains("daily")'
-        - '!file.tags.contains("monthly")'
-        - file.name != this.file.name
+        - '!file.tags.contains("Daily")'
+        - '!file.tags.contains("Monthly")'
     order:
       - file.name
       - created
       - categories
-      - tags
     sort:
-      - property: tags
-        direction: ASC
       - property: created
         direction: DESC
-      - property: file.name
-        direction: ASC
       - property: categories
         direction: ASC
     columnSize:
@@ -44,9 +38,8 @@ views:
     name: Monthly
     filters:
       and:
-        - '!file.tags.contains("daily")'
-        - '!file.tags.contains("monthly")'
-        - file.name != this.file.name
+        - '!tags.contains("daily")'
+        - '!tags.contains("monthly")'
     order:
       - file.name
       - categories
@@ -60,9 +53,8 @@ views:
     name: Yearly
     filters:
       and:
-        - '!file.tags.contains("daily")'
-        - '!file.tags.contains("monthly")'
-        - file.name != this.file.name
+        - '!tags.contains("daily")'
+        - '!tags.contains("monthly")'
     order:
       - file.name
       - categories

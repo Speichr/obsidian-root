@@ -2,4 +2,4 @@
 tags:
   - products/types
 ---
-![[Products.base#Type]]
+![[Products.base]]

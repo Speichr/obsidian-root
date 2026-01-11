@@ -1,5 +1,7 @@
 ---
-created: {{date}}
-tags:
-  - 0🌲
+created:
+  "{ date }":
+categories:
+  - "[[Evergreen]]"
+tags: 0🌲
 ---

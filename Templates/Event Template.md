@@ -1,10 +1,8 @@
 ---
 categories:
   - "[[Events]]"
-tags:
-  - events
-type: 
-start: 
-end: 
+type:
+start:
+end:
 loc:
 ---

@@ -1,9 +1,12 @@
 ---
-date: {{date}}
-trade: 
-tags:
-  - investment
-  - trade
-price: 
+date:
+  "{ date }":
+categories:
+  - "?"
+type:
+  - "[[investment]]"
+  - "[[trade]]"
+trade:
+price:
 shares:
 ---

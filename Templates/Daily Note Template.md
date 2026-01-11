@@ -1,6 +1,5 @@
 ---
-tags:
-  - daily
+tags: daily
 ---
 ## Notes
 

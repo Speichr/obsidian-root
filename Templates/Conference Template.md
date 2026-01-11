@@ -1,12 +1,12 @@
 ---
 categories:
   - "[[Events]]"
-type: "[[Conferences]]"
-series: 
-start: 
-end: 
-loc: 
-tags:
-  - events
-  - conferences
+type:
+  - "[[Conferences]]"
+  - "[[Events]]"
+  - "[[Sessions]]"
+series:
+start:
+end:
+loc:
 ---

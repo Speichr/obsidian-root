@@ -1,36 +1,32 @@
-filters:
-  and:
-    - '!file.ext.containsAny("base", "md", "pdf", "canvas")'
 formulas:
   Embeds: if(file.embeds[0].containsAny("jpg","gif","webp","jpeg","avif"), file.embeds[0])
   Date: if(created,created,if(start,start))
-  links: file.backlinks
-properties:
-  formula.links:
-    displayName: Links
+  links: file.
 views:
   - type: cards
     name: Images
     filters:
       and:
         - this.file.hasLink(file)
+        - '!file.ext.containsAny("base", "canvas", "pdf", "md")'
+        - file == ""
     order: []
     sort:
       - property: file.name
         direction: ASC
     image: file.file
     cardSize: 70
-  - type: cards
-    name: All images
-    image: file.file
-    imageFit: ""
   - type: table
-    name: Unused attachements
+    name: Images 2
     filters:
       and:
-        - formula.links.isEmpty()
+        - '!file.ext.containsAny("base", "canvas", "pdf", "md")'
     order:
       - file.name
+      - file.links
       - formula.links
-    columnSize:
-      file.name: 414
+    sort:
+      - property: file.name
+        direction: ASC
+    image: file.file
+    cardSize: 90

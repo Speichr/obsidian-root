@@ -37,3 +37,6 @@ views:
     sort:
       - property: clipped
         direction: DESC
+    columnSize:
+      file.name: 209
+      note.author: 139

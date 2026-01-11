@@ -1,6 +1,9 @@
 ---
-created: {{date}}
-tags:
-  - note
-  - journal
+created:
+  "{{date}}"
+categories: "[[Journal]]"
+type:
+  - "[[Notes]]"
+  - "[[Journal]]"
+  - "[[Meditations]]"
 ---

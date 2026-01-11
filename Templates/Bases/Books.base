@@ -12,6 +12,13 @@ properties:
   note.genre:
     displayName: Genre
 views:
+  - type: cards
+    name: View
+    order:
+      - file.name
+      - author
+    image: note.cover
+    imageFit: contain
   - type: table
     name: Books
     order:

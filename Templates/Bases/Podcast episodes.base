@@ -30,6 +30,8 @@ views:
     sort:
       - property: published
         direction: DESC
+    columnSize:
+      note.guests: 130
   - type: table
     name: Show
     filters:
